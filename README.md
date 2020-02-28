@@ -1,6 +1,6 @@
 # N2O STORYBOOK
 
-This is an example of how integrating n2o elements into storybook environment. You can build your user interface based on n2o elements in isolation from the main application
+This is an example of how to integrate n2o elements into storybook environment. You can build your user interface based on n2o elements in isolation from the main application
 
 ## Intro
 
