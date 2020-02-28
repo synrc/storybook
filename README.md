@@ -2,12 +2,12 @@
 
 This is an example of how integrating n2o elements into storybook environment. You can build your user interface based on n2o elements in isolation from the main application
 
-### Intro
+## Intro
 
 An example consists of three elements `comboLookUp`, `comboLookUp2` and `calendar`. It creates WebSocket connection to n2o server.
 Application is accessible at http://localhost:6006/.
 
-### How to interact with n2o server
+## How to interact with n2o server
 
 In `preview-body.html` you should initialize the webSocket connection and after that send direct messages to your n2o server in the setTimeout
 
@@ -39,7 +39,7 @@ def route(<<"iframe.html", _::binary>>) do
 end
 ```
 
-### Setup
+## Setup
 
 To run review application clone and follow the steps necessary to install a [storybook/html](https://storybook.js.org/docs/guides/guide-html/)
 ```
