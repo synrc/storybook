@@ -4,10 +4,12 @@ This is an example of how to integrate n2o elements into storybook environment. 
 
 ## Intro
 
-An example consists of three elements `comboLookup` and `textarea`. It creates WebSocket connection to n2o server.
+An example consists of two elements `comboLookup` and `textarea`. It creates WebSocket connection to n2o server.
 Application is accessible at http://localhost:6006/.
 
 ## How to interact with n2o server
+
+This example comes with a simple H2O server, but you can also use your own server, you only need to follow the following steps
 
 In `preview-body.html` you should initialize the WebSocket connection and after that send direct messages to your n2o server in the `setTimeout`
 
