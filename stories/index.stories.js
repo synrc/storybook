@@ -1,15 +1,11 @@
 import comboLookUp from '../public/combolookup.html';
-import comboLookUp2 from '../public/combolookup2.html';
-import calendar from '../public/calendar.html';
+import textArea from '../public/textArea.html';
 
 export default {
   title: 'Controls',
 };
 
-export const ComboLookUp2 = () => comboLookUp2;
+export const TextArea = () => textArea;
 
-export const ComboLookUp  = () => {
-  return comboLookUp;
-};
+export const ComboLookUp  = () => comboLookUp;
 
-export const Calendar = () => calendar;
