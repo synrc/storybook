@@ -20,8 +20,7 @@ route(<<"login",_/binary>>) -> login;   % github static
 route(<<"app/index",_/binary>>) -> index; % priv static
 route(<<"app/login",_/binary>>) -> login; % priv static
 route(<<"iframe.html",_/binary>>) ->
-  Id = nitro:qc(id),
-  case Id of
+  case nitro:qc(id) of
     <<"controls--combo-look-up">> -> combolookup;
     <<"controls--text-area">> -> textarea
   end;
