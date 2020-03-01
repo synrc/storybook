@@ -21,7 +21,7 @@ route(<<"app/index",_/binary>>) -> index; % priv static
 route(<<"app/login",_/binary>>) -> login; % priv static
 route(<<"iframe.html",_/binary>>) ->
   case nitro:qc(id) of
-    <<"controls--combo-look-up">> -> combolookup;
+    <<"controls--koatuu">> -> koatuu;
     <<"controls--text-area">> -> textarea
   end;
 route(_) -> login.

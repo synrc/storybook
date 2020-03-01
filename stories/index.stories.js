@@ -1,4 +1,4 @@
-import comboLookUp from '../public/combolookup.html';
+import koatuu from '../public/koatuu.html';
 import textArea from '../public/textArea.html';
 
 export default {
@@ -7,5 +7,5 @@ export default {
 
 export const TextArea = () => textArea;
 
-export const ComboLookUp  = () => comboLookUp;
+export const Koatuu  = () => koatuu;
 
