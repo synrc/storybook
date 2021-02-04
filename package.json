@@ -13,11 +13,11 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "prismjs": ">=1.21.0",
-    "minimist": ">=1.2.3",
     "@babel/core": "^7.12.13",
     "@storybook/html": "^6.1.17",
     "babel-loader": "^8.0.6",
-    "http-proxy-middleware": "^0.20.0"
+    "http-proxy-middleware": "^0.20.0",
+    "minimist": ">=1.2.3",
+    "prismjs": ">=1.21.0"
   }
 }
